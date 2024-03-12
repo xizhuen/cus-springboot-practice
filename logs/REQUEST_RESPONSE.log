@@ -1,0 +1,64 @@
+13-03-2024 02:42:59 INFO  - Starting SpringHibernateMssqlApplication using Java 17.0.10 with PID 10516 (C:\Users\xizhu\Code\mb-java-assessment\target\classes started by xizhu in C:\Users\xizhu\Code\mb-java-assessment)
+13-03-2024 02:42:59 INFO  - No active profile set, falling back to 1 default profile: "default"
+13-03-2024 02:43:00 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13-03-2024 02:43:00 INFO  - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+13-03-2024 02:43:00 INFO  - Tomcat initialized with port(s): 8080 (http)
+13-03-2024 02:43:00 INFO  - Root WebApplicationContext: initialization completed in 1041 ms
+13-03-2024 02:43:00 INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+13-03-2024 02:43:00 INFO  - HHH000412: Hibernate ORM core version 6.2.7.Final
+13-03-2024 02:43:00 INFO  - HHH000406: Using bytecode reflection optimizer
+13-03-2024 02:43:01 INFO  - HHH000021: Bytecode provider name : bytebuddy
+13-03-2024 02:43:01 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+13-03-2024 02:43:01 INFO  - HikariPool-1 - Starting...
+13-03-2024 02:43:01 INFO  - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 95880341-b579-45f0-b0c1-47be56653391
+13-03-2024 02:43:01 INFO  - HikariPool-1 - Start completed.
+13-03-2024 02:43:01 INFO  - HHH000021: Bytecode provider name : bytebuddy
+13-03-2024 02:43:02 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13-03-2024 02:43:02 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13-03-2024 02:43:02 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13-03-2024 02:43:02 INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+13-03-2024 02:43:02 INFO  - Started SpringHibernateMssqlApplication in 3.469 seconds (process running for 3.74)
+13-03-2024 02:43:07 INFO  - Initializing Servlet 'dispatcherServlet'
+13-03-2024 02:43:07 INFO  - Completed initialization in 1 ms
+13-03-2024 02:43:08 INFO  - REQUEST: METHOD=GET URI=/places/1 PAYLOAD= CODE=200 RESPONSE={"id":1,"name":"Kuala Lumpur"} TIMETAKEN=109
+13-03-2024 02:43:08 INFO  - REQUEST: METHOD=GET URI=/places/1 PAYLOAD= CODE=200 RESPONSE={"id":1,"name":"Kuala Lumpur"} TIMETAKEN=4
+13-03-2024 02:43:27 INFO  - REQUEST: METHOD=GET URI=/places/3rdParty PAYLOAD= CODE=200 RESPONSE=[{"status":{"verified":true,"sentCount":1},"_id":"58e00b5f0aac31001185ed24","user":"58e007480aac31001185ecef","text":"When asked if her husband had any hobbies, Mary Todd Lincoln is said to have replied \"cats.\"","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-02-19T21:20:03.434Z","deleted":false,"used":false},{"status":{"verified":true,"feedback":"","sentCount":1},"_id":"5887e1d85c873e0011036889","user":"5a9ac18c7478810ea6c06381","text":"Cats make about 100 different sounds. Dogs make only about 10.","__v":0,"source":"user","updatedAt":"2020-09-03T16:39:39.578Z","type":"cat","createdAt":"2018-01-15T21:20:00.003Z","deleted":false,"used":true},{"status":{"verified":true,"sentCount":1},"_id":"58e008780aac31001185ed05","user":"58e007480aac31001185ecef","text":"Owning a cat can reduce the risk of stroke and heart attack by a third.","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-03-29T20:20:03.844Z","deleted":false,"used":false},{"status":{"verified":true,"sentCount":1},"_id":"58e009390aac31001185ed10","user":"58e007480aac31001185ecef","text":"Most cats are lactose intolerant, and milk can cause painful stomach cramps and diarrhea. It's best to forego the milk and just give your cat the standard: clean, cool drinking water.","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-03-04T21:20:02.979Z","deleted":false,"used":false},{"status":{"verified":true,"sentCount":1},"_id":"58e00af60aac31001185ed1d","user":"58e007480aac31001185ecef","text":"It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of controlling the rat population.","__v":0,"source":"user","updatedAt":"2020-09-16T20:20:04.164Z","type":"cat","createdAt":"2018-01-15T21:20:02.945Z","deleted":false,"used":true}] TIMETAKEN=1074
+13-03-2024 02:43:28 INFO  - REQUEST: METHOD=GET URI=/places/3rdParty PAYLOAD= CODE=200 RESPONSE=[{"status":{"verified":true,"sentCount":1},"_id":"58e00b5f0aac31001185ed24","user":"58e007480aac31001185ecef","text":"When asked if her husband had any hobbies, Mary Todd Lincoln is said to have replied \"cats.\"","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-02-19T21:20:03.434Z","deleted":false,"used":false},{"status":{"verified":true,"feedback":"","sentCount":1},"_id":"5887e1d85c873e0011036889","user":"5a9ac18c7478810ea6c06381","text":"Cats make about 100 different sounds. Dogs make only about 10.","__v":0,"source":"user","updatedAt":"2020-09-03T16:39:39.578Z","type":"cat","createdAt":"2018-01-15T21:20:00.003Z","deleted":false,"used":true},{"status":{"verified":true,"sentCount":1},"_id":"58e008780aac31001185ed05","user":"58e007480aac31001185ecef","text":"Owning a cat can reduce the risk of stroke and heart attack by a third.","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-03-29T20:20:03.844Z","deleted":false,"used":false},{"status":{"verified":true,"sentCount":1},"_id":"58e009390aac31001185ed10","user":"58e007480aac31001185ecef","text":"Most cats are lactose intolerant, and milk can cause painful stomach cramps and diarrhea. It's best to forego the milk and just give your cat the standard: clean, cool drinking water.","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-03-04T21:20:02.979Z","deleted":false,"used":false},{"status":{"verified":true,"sentCount":1},"_id":"58e00af60aac31001185ed1d","user":"58e007480aac31001185ecef","text":"It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of controlling the rat population.","__v":0,"source":"user","updatedAt":"2020-09-16T20:20:04.164Z","type":"cat","createdAt":"2018-01-15T21:20:02.945Z","deleted":false,"used":true}] TIMETAKEN=250
+13-03-2024 02:43:29 INFO  - REQUEST: METHOD=POST URI=/places/new PAYLOAD={
+    "name": "Kuala Lumpur"
+} CODE=200 RESPONSE={"id":852,"name":"Kuala Lumpur"} TIMETAKEN=79
+13-03-2024 02:43:31 INFO  - REQUEST: METHOD=GET URI=/places/listByPage PAYLOAD= CODE=200 RESPONSE={"content":[{"id":1,"name":"Kuala Lumpur"},{"id":2,"name":"Kuala Lumpur"},{"id":3,"name":"Kuala Lumpur"},{"id":52,"name":"Kuala Lumpur"},{"id":53,"name":"Kuala Lumpur"},{"id":54,"name":"Kuala Lumpur"},{"id":55,"name":"Kuala Lumpur"},{"id":56,"name":"Kuala Lumpur"},{"id":57,"name":"Kuala Lumpur"},{"id":58,"name":"Kuala Lumpur"}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"unsorted":true,"sorted":false},"offset":0,"unpaged":false,"paged":true},"last":false,"totalElements":50,"totalPages":5,"first":true,"numberOfElements":10,"size":10,"number":0,"sort":{"empty":true,"unsorted":true,"sorted":false},"empty":false} TIMETAKEN=91
+13-03-2024 02:43:31 INFO  - REQUEST: METHOD=GET URI=/places/listByPage PAYLOAD= CODE=200 RESPONSE={"content":[{"id":1,"name":"Kuala Lumpur"},{"id":2,"name":"Kuala Lumpur"},{"id":3,"name":"Kuala Lumpur"},{"id":52,"name":"Kuala Lumpur"},{"id":53,"name":"Kuala Lumpur"},{"id":54,"name":"Kuala Lumpur"},{"id":55,"name":"Kuala Lumpur"},{"id":56,"name":"Kuala Lumpur"},{"id":57,"name":"Kuala Lumpur"},{"id":58,"name":"Kuala Lumpur"}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"unsorted":true,"sorted":false},"offset":0,"unpaged":false,"paged":true},"last":false,"totalElements":50,"totalPages":5,"first":true,"numberOfElements":10,"size":10,"number":0,"sort":{"empty":true,"unsorted":true,"sorted":false},"empty":false} TIMETAKEN=9
+13-03-2024 02:43:38 INFO  - REQUEST: METHOD=GET URI=/places/listByPage PAYLOAD= CODE=200 RESPONSE={"content":[{"id":1,"name":"Kuala Lumpur"},{"id":2,"name":"Kuala Lumpur"},{"id":3,"name":"Kuala Lumpur"},{"id":52,"name":"Kuala Lumpur"},{"id":53,"name":"Kuala Lumpur"},{"id":54,"name":"Kuala Lumpur"},{"id":55,"name":"Kuala Lumpur"},{"id":56,"name":"Kuala Lumpur"},{"id":57,"name":"Kuala Lumpur"},{"id":58,"name":"Kuala Lumpur"}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"unsorted":true,"sorted":false},"offset":0,"unpaged":false,"paged":true},"last":false,"totalElements":50,"totalPages":5,"first":true,"numberOfElements":10,"size":10,"number":0,"sort":{"empty":true,"unsorted":true,"sorted":false},"empty":false} TIMETAKEN=20
+13-03-2024 02:43:53 INFO  - REQUEST: METHOD=GET URI=/places/listByPage PAYLOAD= CODE=200 RESPONSE={"content":[{"id":1,"name":"Kuala Lumpur"},{"id":2,"name":"Kuala Lumpur"},{"id":3,"name":"Kuala Lumpur"},{"id":52,"name":"Kuala Lumpur"},{"id":53,"name":"Kuala Lumpur"},{"id":54,"name":"Kuala Lumpur"},{"id":55,"name":"Kuala Lumpur"},{"id":56,"name":"Kuala Lumpur"},{"id":57,"name":"Kuala Lumpur"},{"id":58,"name":"Kuala Lumpur"}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"unsorted":true,"sorted":false},"offset":0,"unpaged":false,"paged":true},"last":false,"totalElements":50,"totalPages":5,"first":true,"numberOfElements":10,"size":10,"number":0,"sort":{"empty":true,"unsorted":true,"sorted":false},"empty":false} TIMETAKEN=22
+13-03-2024 02:43:57 INFO  - REQUEST: METHOD=GET URI=/places/1 PAYLOAD= CODE=200 RESPONSE={"id":1,"name":"Kuala Lumpur"} TIMETAKEN=6
+13-03-2024 02:43:58 INFO  - REQUEST: METHOD=GET URI=/places/1 PAYLOAD= CODE=200 RESPONSE={"id":1,"name":"Kuala Lumpur"} TIMETAKEN=4
+13-03-2024 02:43:59 INFO  - REQUEST: METHOD=GET URI=/places/1 PAYLOAD= CODE=200 RESPONSE={"id":1,"name":"Kuala Lumpur"} TIMETAKEN=5
+13-03-2024 02:44:01 INFO  - REQUEST: METHOD=GET URI=/places/2 PAYLOAD= CODE=200 RESPONSE={"id":2,"name":"Kuala Lumpur"} TIMETAKEN=4
+13-03-2024 02:44:03 INFO  - REQUEST: METHOD=GET URI=/places/3 PAYLOAD= CODE=200 RESPONSE={"id":3,"name":"Kuala Lumpur"} TIMETAKEN=5
+13-03-2024 02:45:24 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+13-03-2024 02:45:24 INFO  - HikariPool-1 - Shutdown initiated...
+13-03-2024 02:45:24 INFO  - HikariPool-1 - Shutdown completed.
+13-03-2024 02:46:44 INFO  - Starting SpringHibernateMssqlApplication using Java 17.0.10 with PID 23124 (C:\Users\xizhu\Code\mb-java-assessment\target\classes started by xizhu in C:\Users\xizhu\Code\mb-java-assessment)
+13-03-2024 02:46:44 INFO  - No active profile set, falling back to 1 default profile: "default"
+13-03-2024 02:46:44 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13-03-2024 02:46:45 INFO  - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+13-03-2024 02:46:45 INFO  - Tomcat initialized with port(s): 8080 (http)
+13-03-2024 02:46:45 INFO  - Root WebApplicationContext: initialization completed in 1092 ms
+13-03-2024 02:46:45 INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+13-03-2024 02:46:45 INFO  - HHH000412: Hibernate ORM core version 6.2.7.Final
+13-03-2024 02:46:45 INFO  - HHH000406: Using bytecode reflection optimizer
+13-03-2024 02:46:45 INFO  - HHH000021: Bytecode provider name : bytebuddy
+13-03-2024 02:46:46 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+13-03-2024 02:46:46 INFO  - HikariPool-1 - Starting...
+13-03-2024 02:46:46 INFO  - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 74a666f0-f468-4e60-b31b-efc41d2e304d
+13-03-2024 02:46:46 INFO  - HikariPool-1 - Start completed.
+13-03-2024 02:46:46 INFO  - HHH000021: Bytecode provider name : bytebuddy
+13-03-2024 02:46:47 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13-03-2024 02:46:47 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13-03-2024 02:46:47 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13-03-2024 02:46:47 INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+13-03-2024 02:46:47 INFO  - Started SpringHibernateMssqlApplication in 3.743 seconds (process running for 4.034)
+13-03-2024 02:46:54 INFO  - Initializing Servlet 'dispatcherServlet'
+13-03-2024 02:46:54 INFO  - Completed initialization in 1 ms
+13-03-2024 02:46:54 INFO  - REQUEST: METHOD=GET URI=/places/3 PAYLOAD= CODE=200 RESPONSE={"id":3,"name":"Kuala Lumpur"} TIMETAKEN=144

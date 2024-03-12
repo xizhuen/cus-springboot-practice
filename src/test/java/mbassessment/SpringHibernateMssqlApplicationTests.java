@@ -1,4 +1,4 @@
-package io.github.chameerar.springhibernatemssql;
+package mbassessment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

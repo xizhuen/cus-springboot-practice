@@ -1,21 +1,20 @@
-package io.github.chameerar.springhibernatemssql.models;
+package mbassessment.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
-public class Book {
-
+public class Place {
     @Id
     @GeneratedValue
     private Long id;
     private String name;
 
-    public Book() {
+    public Place() {
     }
 
-    public Book(String name) {
+    public Place(String name) {
         this.name = name;
     }
 
